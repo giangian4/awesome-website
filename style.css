@@ -36,10 +36,119 @@ ul {
     gap: 16px;
 }
 
+.hero-container {
+    background-color: #1F2937;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 100px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
 .hero {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+}
+
+.hero-info {
+    color: #E5E7EB
+}
+
+button.sign-up {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    border-radius: 5px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.items img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid #3882F6;
+}
+
+.items {
+    max-width: 200px;
+    padding: 36px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-sect {
+    display: flex;
+    align-self: center;
+    width: 500px;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.modal {
+    background-color: #3882F6;
+    width: 600px;
+    border-radius: 5px;
+    display: flex;
+    gap: 16px;
+    padding: 36px 100px;
+    margin: 36px 300px;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+
+.cta-text {
+    color: white;
+}
+
+button.sign-up2 {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 4px 24px;
 }
 
 .random {
@@ -47,10 +156,20 @@ ul {
     justify-content: center;
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937
+    color: #1F2937;
+    padding: 36px;
 }
 
 img {
     width: 300px;
     height: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
