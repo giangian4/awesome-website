@@ -38,6 +38,16 @@ ul {
 
 .hero-container {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    width: 250px;
+    height: 150px;
 }
 
 .left-side {
@@ -46,12 +56,6 @@ ul {
     justify-content: space-between;
     align-items: flex-start;
     padding: 50px 100px;
-}
-
-.right-side {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-start;
 }
 
 .hero {
@@ -115,6 +119,7 @@ button.sign-up {
 
 .author {
     font-weight: bold;
+    padding-left: 750px;
 }
 
 .modal {
@@ -143,7 +148,7 @@ button.sign-up {
     color: white;
 }
 
-button.sign-up2 {
+button.sign-uptwo {
     background-color: #3882F6;
     color: white;
     border: 1px solid white;
@@ -160,16 +165,12 @@ button.sign-up2 {
     padding: 36px;
 }
 
-img {
-    width: 300px;
-    height: 150px;
-}
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 70px;
     background-color: #1F2937;
     color: #E5E7EB;
 }
